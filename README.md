@@ -1,8 +1,8 @@
 # Shakespearean-Sonnets-GPT
-Authors: 
-Isaiah Jones (isaiah.jones@u.northwestern.edu), *Northwestern University  *
-Ruth Bagley () *Northwestern University  *
-Shubhanshi Gaudani (shubhanshigaudani2024@u.northwestern.edu) *Northwestern University  *
+Authors: <br>
+Isaiah Jones (isaiah.jones@u.northwestern.edu) *Northwestern University * <br>
+Ruth Bagley () *Northwestern University* <br>
+Shubhanshi Gaudani (shubhanshigaudani2024@u.northwestern.edu) *Northwestern University* <br>
 
 
 **COMP SCI 496: Generative Deep Models**
