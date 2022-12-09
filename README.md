@@ -24,11 +24,12 @@ Another inspiration for our work is GPT-2 Neural Network Poetry by Gwern Branwen
 ## Approach 
 ### Dataset 
 We used Shakespearean sonnet dataset (https://www.kaggle.com/datasets/blacksheep2105/shakespearean-sonnets )to fine tune the pre-trained model. The sonnet dataset is a text file containing Shakespeare’s 154 sonnets. We refined the dataset to include 5 key words that capture the main essence of the sonnet. The 5 words were selected manually from the sonnet, and later we also tried using a TFIDF based approach to extract these words but found the manual approach to be better in terms of the results obtained. 
-So an example from the dataset is: 
-Keywords: 
+So an example from the dataset is:  <br>
+ <br>
+*Keywords*: 
 weary, travel, zealous, imaginary, mind
 
-Sonnet:
+*Sonnet*:
 Weary with toil, I haste me to my bed, <br>
 The dear repose for limbs with travel tired;  <br>
 But then begins a journey in my head <br>
