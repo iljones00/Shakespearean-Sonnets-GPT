@@ -29,7 +29,7 @@ Keywords:
 weary, travel, zealous, imaginary, mind
 
 Sonnet:
-Weary with toil, I haste me to my bed,
+Weary with toil, I haste me to my bed, \n
 The dear repose for limbs with travel tired;
 But then begins a journey in my head
 To work my mind, when body's work's expired:
