@@ -23,7 +23,7 @@ Another inspiration for our work is GPT-2 Neural Network Poetry by Gwern Branwen
 
 ## Approach 
 ### Dataset 
-We used Shakespearean sonnet dataset from Kaggle[3] to fine tune the pre-trained model. The sonnet dataset is a text file containing Shakespeare’s 154 sonnets. We refined the dataset to include 5 key words that capture the main essence of the sonnet. The 5 words were selected manually from the sonnet, and later we also tried using a TFIDF based approach to extract these words but found the manual approach to be better in terms of the results obtained. 
+We used Shakespearean sonnet dataset from Kaggle[3] to fine tune the pre-trained model. The sonnet dataset is a text file containing Shakespeare’s 154 sonnets and can be found in `Sonnets.txt` . We refined the dataset to include 5 key words that capture the main essence of the sonnet. The 5 words were selected manually from the sonnet, and later we also tried using a TFIDF based approach to extract these words but found the manual approach to be better in terms of the results obtained. The refined dataset can be found in `Sonnets with keywords.txt`
 So an example from the dataset is:  <br>
  <br>
 *Keywords*: 
@@ -49,7 +49,7 @@ For thee, and for myself, no quiet find. <br>
 The OpenAI GPT-2 in the past has exhibited abilities of writing very coherent essays with enriched vocabulary that goes beyond what we anticipated large language models are able to produce. The GPT-2 has an architechture similar to the decoder-only transformer [4]. The GPT2 was, however, a very large, transformer-based language model trained on a massive dataset, and we leverage its pre-trained model in order to fine-tune it on our much smaller dataset. 
 
 ### Fine-tuning Process 
-In order to fine-tune the model, we 
+In order to fine-tune the model, we: 
 1. Cloned the GPT-2 Medium (345M parameters) model 
 2. Unfroze the last 6 layers of the model 
 3. Retrained using the Transformers library 
@@ -58,6 +58,7 @@ In terms of the tokenizer, we used the existing tokenizer by GPT-2.
 ### Experiments 
 #### 1. Varying the number of unfrozen layers:
 We varied the number of unfrozen layers from 4-8. For both 4 and 8 the model produced gibberish text, whereas for 5, 6 and 7 the model produced standard english. For the 7 layer variation, text had large chunks of generated text directly lifted from the initial sonnets while the 5 layer variation often had youtube links and sports commentary. Therefore, our final model has 6 unfreezed layers. The specific loss variation can be seen in the below graph: 
+![Unfreezed Layers Experiments](unfreezed-layers-experiment.png)
 
 #### 2. Varying the number of epochs (Depending on the resulting training loss and validation loss values):
 We varied the number of epochs from 7 until 40. We found that the validation loss was consisstently the lowest between 12 to 14 epochs after which it increased indicating overfitting to the data. Our final model was therefore trained for 13 epochs. 
