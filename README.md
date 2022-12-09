@@ -42,13 +42,21 @@ Makes black night beauteous, and her old face new. <br>
 Lo! thus, by day my limbs, by night my mind, <br>
 For thee, and for myself, no quiet find. <br>
 
-### GPT-2 and Finetuning it 
+### GPT-2
 The OpenAI GPT-2 in the past has exhibited abilities of writing very coherent essays with enriched vocabulary that goes beyond what we anticipated large language models are able to produce. The GPT-2 has an architechture similar to the decoder-only transformer [4]. The GPT2 was, however, a very large, transformer-based language model trained on a massive dataset, and we leverage its pre-trained model in order to fine-tune it on our much smaller dataset. 
+
+### Fine-tuning Process 
+In order to fine-tune the model, we 
+1. Cloned the GPT-2 Medium (345M parameters) model 
+2. Unfroze the last 6 layers of the model 
+3. Retrained using the Transformers library 
+
+
 
 ## Results 
 
 ## References 
 [1]. https://arxiv.org/pdf/2205.08847.pdf <br>
-[2]. https://www.gwern.net/GPT-2) <br>
+[2]. https://www.gwern.net/GPT-2 <br>
 [3]. https://www.kaggle.com/datasets/blacksheep2105/shakespearean-sonnets <br>
 [4]. https://jalammar.github.io/illustrated-gpt2/ <br>
