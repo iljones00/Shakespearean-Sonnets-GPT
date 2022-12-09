@@ -29,20 +29,20 @@ Keywords:
 weary, travel, zealous, imaginary, mind
 
 Sonnet:
-Weary with toil, I haste me to my bed, \n
-The dear repose for limbs with travel tired;
-But then begins a journey in my head
-To work my mind, when body's work's expired:
-For then my thoughts--from far where I abide--
-Intend a zealous pilgrimage to thee,
-And keep my drooping eyelids open wide,
-Looking on darkness which the blind do see:
-Save that my soul's imaginary sight
-Presents thy shadow to my sightless view,
-Which, like a jewel hung in ghastly night,
-Makes black night beauteous, and her old face new.
-Lo! thus, by day my limbs, by night my mind,
-For thee, and for myself, no quiet find.
+Weary with toil, I haste me to my bed, <br>
+The dear repose for limbs with travel tired;  <br>
+But then begins a journey in my head <br>
+To work my mind, when body's work's expired: <br>
+For then my thoughts--from far where I abide-- <br>
+Intend a zealous pilgrimage to thee, <br>
+And keep my drooping eyelids open wide, <br>
+Looking on darkness which the blind do see: <br>
+Save that my soul's imaginary sight <br>
+Presents thy shadow to my sightless view, <br>
+Which, like a jewel hung in ghastly night, <br>
+Makes black night beauteous, and her old face new. <br>
+Lo! thus, by day my limbs, by night my mind, <br>
+For thee, and for myself, no quiet find. <br>
 
 ### GPT-2 and Finetuning it 
 
