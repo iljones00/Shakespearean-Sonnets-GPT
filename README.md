@@ -60,8 +60,7 @@ In terms of the tokenizer, we used the existing tokenizer by GPT-2. The overall 
 #### 1. Varying the number of unfrozen layers:
 We varied the number of unfrozen layers from 4-8. For both 4 and 8 the model produced gibberish text, whereas for 5, 6 and 7 the model produced standard english. For the 7 layer variation, text had large chunks of generated text directly lifted from the initial sonnets while the 5 layer variation often had youtube links and sports commentary. Therefore, our final model has 6 unfreezed layers. The specific loss variation can be seen in the below graph:
 
-![Unfreezed Layers Experiments](/unfeezed-layers-experiment.png)
-<img src="/unfeezed-layers-experiment.png" width="200">
+<img src="/unfeezed-layers-experiment.png" width="400">
 
 #### 2. Varying the number of epochs (Depending on the resulting training loss and validation loss values):
 We varied the number of epochs from 7 until 40. We found that the validation loss was consisstently the lowest between 12 to 14 epochs after which it increased indicating overfitting to the data. Our final model was therefore trained for 13 epochs. 
