@@ -21,10 +21,28 @@ One of the main inspirations for our work was GPoet-2, a GPT-2 based limerick ge
 ### GPT-2 Poetry by Gwern Branwen:
 Another inspiration for our work is GPT-2 Neural Network Poetry by Gwern Branwen. They trained GPT-2 on the Gutenberg Poetry Corpus containing 3 million lines of free and available poetry before generation. While his model was at generating prose, it still would require some additional finetuning for the specific task of sonnet generation. In addition, we found a fair amount of RNN-based models and transformer based models for smaller poetry tasks such as haikus and other short-formed poems. (https://www.gwern.net/GPT-2) 
 
-
 ## Approach 
 ### Dataset 
-We usedShakespearean sonnet dataset (https://www.kaggle.com/datasets/blacksheep2105/shakespearean-sonnets ) to fine tune the pre-trained model. The sonnet dataset is a text file containing Shakespeare’s 154 sonnets. We refined the dataset to include 5 key words that capture the main essence of the sonnet. The 5 words were selected manually from the sonnet, and later we also tried using a TFIDF based approach to extract these words but found the manual approach to be better in terms of the results obtained. 
+We used Shakespearean sonnet dataset (https://www.kaggle.com/datasets/blacksheep2105/shakespearean-sonnets )to fine tune the pre-trained model. The sonnet dataset is a text file containing Shakespeare’s 154 sonnets. We refined the dataset to include 5 key words that capture the main essence of the sonnet. The 5 words were selected manually from the sonnet, and later we also tried using a TFIDF based approach to extract these words but found the manual approach to be better in terms of the results obtained. 
+So an example from the dataset is: 
+Keywords: 
+weary, travel, zealous, imaginary, mind
+
+Sonnet:
+Weary with toil, I haste me to my bed,
+The dear repose for limbs with travel tired;
+But then begins a journey in my head
+To work my mind, when body's work's expired:
+For then my thoughts--from far where I abide--
+Intend a zealous pilgrimage to thee,
+And keep my drooping eyelids open wide,
+Looking on darkness which the blind do see:
+Save that my soul's imaginary sight
+Presents thy shadow to my sightless view,
+Which, like a jewel hung in ghastly night,
+Makes black night beauteous, and her old face new.
+Lo! thus, by day my limbs, by night my mind,
+For thee, and for myself, no quiet find.
 
 ### GPT-2 and Finetuning it 
 
