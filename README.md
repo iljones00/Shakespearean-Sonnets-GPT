@@ -43,6 +43,9 @@ Lo! thus, by day my limbs, by night my mind, <br>
 For thee, and for myself, no quiet find. <br>
 
 ### GPT-2 and Finetuning it 
-The OpenAI GPT-2 in the past has exhibited abilities of writing very coherent essays with enriched vocabulary that goes beyond what we anticipated large language models are able to produce. The GPT-2 has an architechture similar to the decoder-only transformer. The GPT2 was, however, a very large, transformer-based language model trained on a massive dataset, and we leverage its pre-trained model in order to fine=tune it on our much smaller dataset. 
+The OpenAI GPT-2 in the past has exhibited abilities of writing very coherent essays with enriched vocabulary that goes beyond what we anticipated large language models are able to produce. The GPT-2 has an architechture similar to the decoder-only transformer [1]. The GPT2 was, however, a very large, transformer-based language model trained on a massive dataset, and we leverage its pre-trained model in order to fine-tune it on our much smaller dataset. 
 
 ## Results 
+
+## References 
+[1]. https://jalammar.github.io/illustrated-gpt2/ <br>
