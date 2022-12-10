@@ -99,8 +99,7 @@ must bear all wrong directed thereby reign.<br>
 <br>
 Sonnet Score: 0.731
 <br>
-Recitation by James Wilkinson 
-![](/james_recitation.m4a)
+Recitation of this sonnet by James Wilkinson can be found in `james_recitation.m4a`!
 <br>
 <br>
 *Sonnet 2*.<br>
