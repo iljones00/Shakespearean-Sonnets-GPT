@@ -99,6 +99,8 @@ must bear all wrong directed thereby reign.<br>
 <br>
 Sonnet Score: 0.731
 <br>
+Recitation by James Wilkinson 
+~[With an audio](\james_recitation.m4a)
 <br>
 *Sonnet 2*.<br>
 When thou shalt be disposed to set me light <br>
